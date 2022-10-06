@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="app.js"></script>
+</head>
+
+<style>
+
+.d1{
+
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    margin: auto;
+}
+
+.d2{
+
+    margin: auto;
+}
+
+</style>
+<body>
+
+<div class="d1">
+    <div class="d2">
+
+    <h2>BillAmount</h2>
+    <input type="text"  id="billAnount">
+    <h2>PercentageTip</h2>
+    <br/>
+    <input type="text" id="percentageTip">
+    <br/>
+    <h2>TipAmount</h2>
+    <input type="text" id="tipAmount">
+    <h2>Total</h2>
+    <input type="text" id="total">
+    <br/><br/>
+ <center>  <input type="button" value="Calculate" onclick="caly()"></center> 
+</div>
+</div>
+    
+</body>
+</html>
